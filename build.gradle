@@ -29,6 +29,11 @@ dependencies {
   implementation("org.springframework:spring-webmvc:6.0.11")
   implementation("org.springframework:spring-web:6.0.11")
   implementation("com.google.code.gson:gson:2.10.1")
+  compileOnly("javax.servlet.jsp.jstl:javax.servlet.jsp.jstl-api:1.2.2")
+  implementation("javax.servlet.jsp.jstl:jstl-api:1.2")
+  implementation("org.eclipse.jetty:apache-jstl:11.0.0")
+
+
 
   testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
   testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
